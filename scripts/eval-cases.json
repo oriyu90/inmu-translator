@@ -13,5 +13,9 @@
   {"input": "ありがとう", "mode": "mix", "level": 2, "expected": "ありがとナス！"},
   {"input": "疲れた", "mode": "mix", "level": 3, "expected": "ぬわあああああん疲れたもおおおおおん"},
   {"input": "美味しかったです", "mode": "mix", "level": 2, "expected": "あ＾～うめぇなぁ！"},
-  {"input": "了解しました", "mode": "mix", "level": 2, "expected": "おかのした"}
+  {"input": "了解しました", "mode": "mix", "level": 2, "expected": "おかのした"},
+  {"input": "いい感じにしてやろう", "mode": "mix", "level": 3, "expected": "いい感じにしてやろう（提案）"},
+  {"input": "手伝おう", "mode": "mix", "level": 3, "expected": "手伝おう（提案）"},
+  {"input": "いいですか？", "mode": "mix", "level": 3, "expected": "いいですか？（困惑）"},
+  {"input": "どうすればいいですか？", "mode": "mix", "level": 3, "expected": "どうすればいいですか？（困惑）"}
 ]
