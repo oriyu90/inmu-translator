@@ -3,8 +3,9 @@
 上欄入力→変換→下欄出力＋コピー。履歴はIndexedDB（削除可）。AIは自宅LM Studio直結が既定。
 
 ## 既定接続
-- BaseURL `http://192.168.0.114:1234/v1` / Model `openai/gpt-oss-20b` / キーなし
-- 変更は画面の「AI接続設定」から（保存は端末localStorageのみ）
+- BaseURL `http://localhost:1234/v1`（このPCのLM Studio）/ Modelは［取得］で一覧から選択 / キーなし
+- 自宅サーバ `http://192.168.0.114:1234/v1` はプリセット切替で使用可
+- Anthropic（要キー・ブラウザ直行）・OpenAI・OpenRouter・Ollama対応
 
 ## 自宅で使う（本命）
 ```bash
