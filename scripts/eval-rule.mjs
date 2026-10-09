@@ -6,7 +6,8 @@ const dir = path.dirname(path.dirname(fileURLToPath(import.meta.url))) + "/";
 const src = readFileSync(dir + "app.js", "utf8");
 const m = src.match(/const ALIAS[\s\S]*?return \{ text: t\.slice\(0, 300\), used \};\n\}/);
 if (!m) { console.error("rule extract failed"); process.exit(1); }
-const ruleConvert = new Function(`${m[0]}; return ruleConvert;`)();
+const CORPUS = JSON.parse(readFileSync(dir + "goroku-core.json", "utf8"));
+const ruleConvert = new Function("CORPUS", `${m[0]}; rebuildAlias(); return ruleConvert;`)(CORPUS);
 const cases = JSON.parse(readFileSync(dir + "scripts/eval-cases.json", "utf8"));
 let fail = 0;
 for (const c of cases) {

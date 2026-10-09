@@ -17,5 +17,13 @@
   {"input": "いい感じにしてやろう", "mode": "mix", "level": 3, "expected": "いい感じにしてやろう（提案）"},
   {"input": "手伝おう", "mode": "mix", "level": 3, "expected": "手伝おう（提案）"},
   {"input": "いいですか？", "mode": "mix", "level": 3, "expected": "いいですか？（困惑）"},
-  {"input": "どうすればいいですか？", "mode": "mix", "level": 3, "expected": "どうすればいいですか？（困惑）"}
+  {"input": "どうすればいいですか？", "mode": "mix", "level": 3, "expected": "どうすればいいですか？（困惑）"},
+  {"input": "ありません", "mode": "mix", "level": 3, "expected": "ないです"},
+  {"input": "良くないですね", "mode": "mix", "level": 3, "expected": "良くないですね"},
+  {"input": "わからない", "mode": "mix", "level": 3, "expected": "わからない"},
+  {"input": "危ない", "mode": "mix", "level": 3, "expected": "危ない"},
+  {"input": "すごくない", "mode": "mix", "level": 3, "expected": "すごくない"},
+  {"input": "悲しい", "mode": "mix", "level": 3, "expected": "悲しいなぁ"},
+  {"input": "来てください", "mode": "mix", "level": 3, "expected": "来てください（提案）"},
+  {"input": "なるほど", "mode": "mix", "level": 3, "expected": "わかるわかる（タメ口）"}
 ]
