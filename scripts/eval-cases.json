@@ -1,0 +1,17 @@
+[
+  {"input": "やりますね", "mode": "mix", "level": 3, "expected": "やりますねぇ！"},
+  {"input": "仕事をしますね", "mode": "mix", "level": 3, "expected": "仕事をやりますねぇ！"},
+  {"input": "勉強していますね", "mode": "mix", "level": 3, "expected": "勉強やりますねぇ！"},
+  {"input": "すごいですね", "mode": "mix", "level": 3, "expected": "やりますねぇスギィ！"},
+  {"input": "やばいですね", "mode": "mix", "level": 3, "expected": "やりますねぇスギィ！"},
+  {"input": "困りますね", "mode": "mix", "level": 3, "expected": "やりますねぇ！"},
+  {"input": "すごい", "mode": "mix", "level": 3, "expected": "やりますねぇスギィ！"},
+  {"input": "はっきりわかります", "mode": "mix", "level": 3, "expected": "はっきりわかんだね"},
+  {"input": "あなたがバカだとはっきりわかります", "mode": "mix", "level": 3, "expected": "あなたがバカだとはっきりわかんだね"},
+  {"input": "よくわかります", "mode": "mix", "level": 3, "expected": "はっきりわかんだね"},
+  {"input": "わかります", "mode": "mix", "level": 2, "expected": "わかるわかる（タメ口）"},
+  {"input": "ありがとう", "mode": "mix", "level": 2, "expected": "ありがとナス！"},
+  {"input": "疲れた", "mode": "mix", "level": 3, "expected": "ぬわあああああん疲れたもおおおおおん"},
+  {"input": "美味しかったです", "mode": "mix", "level": 2, "expected": "あ＾～うめぇなぁ！"},
+  {"input": "了解しました", "mode": "mix", "level": 2, "expected": "おかのした"}
+]
